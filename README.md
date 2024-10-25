@@ -2,8 +2,8 @@
 DRPG Bot is a Discord bot built with TypeScript and Discord.js. It is designed to be a simple and easy-to-use bot for playing a medieval-themed RPG game in Discord servers.
 
 ## Prerequisites
-- [Node.js](https://nodejs.org) (version 14 or higher)
-- [npm](https://www.npmjs.com) (version 6 or higher)
+- [Node.js](https://nodejs.org) (version 18 or higher)
+- [npm](https://www.npmjs.com) (version 10 or higher)
 
 ## Installation
 1. **Clone the repository:**
