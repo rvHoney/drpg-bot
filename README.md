@@ -4,6 +4,8 @@ DRPG Bot is a Discord bot built with TypeScript and Discord.js. It is designed t
 ## Prerequisites
 - [Node.js](https://nodejs.org) (version 18 or higher)
 - [npm](https://www.npmjs.com) (version 10 or higher)
+- [Docker](https://www.docker.com) (optional)
+- [Docker Compose](https://docs.docker.com/compose) (optional)
 
 ## Installation
 1. **Clone the repository:**
@@ -26,6 +28,20 @@ DRPG Bot is a Discord bot built with TypeScript and Discord.js. It is designed t
     npm start
     ```
 
+## Docker
+1. **Build the Docker image:**
+    ```sh
+    docker-compose build
+    ```
+2. **Run the Docker container:**
+    ```sh
+    docker-compose up
+    ```
+3. **Stop the Docker container:**
+    ```sh
+    docker-compose down
+    ```
+    
 ## Scripts
 - `npm run build`: Builds the project.
 - `npm start`: Starts the bot.
